@@ -1,0 +1,215 @@
+:root {
+  --text-font: 'Roboto', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
+  --title-color: #212121;
+  --focus-color: #2196f3;
+  --text-color: #757575;
+  --dark-background-color: #2f303a;
+  --button-text-color: #ffffff;
+  --button-backgroung-color: #f5f4fa;
+  --logo-second-part: #000000;
+  --order-button-color: #188ce8;
+  --button-alfa-text: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: var(--text-font);
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 1.143;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+/*=======Navigations=======*/
+.logo {
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  color: var(--logo-second-part);
+}
+
+.logo-footer {
+  font-family: var(--logo-font);
+  color: var(--button-text-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+.logo-first-part {
+  color: var(--focus-color);
+}
+
+.navigation-link {
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--focus-color);
+}
+
+.mail-link {
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.tel-link {
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.tel-link:hover,
+.tel-link:focus,
+.mail-link:hover,
+.mail-link:focus {
+  color: var(--focus-color);
+}
+
+.navigation,
+.portfolio-button,
+.order-button {
+  cursor: pointer;
+  border: none;
+}
+
+.navigation-item .navigation-link.current {
+  color: var(--focus-color);
+}
+/*=======FOOTER=======*/
+
+.address-map {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.714;
+  color: var(--button-text-color);
+}
+.contacts-footer {
+  font-weight: 400;
+  line-height: 1.714;
+  color: var(--button-alfa-text);
+}
+
+/*=======studio======*/
+/*=======hero=======*/
+
+.hero,
+.footer {
+  background: var(--dark-background-color);
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--button-text-color);
+}
+
+.order-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--button-text-color);
+  background: var(--focus-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.order-button:hover,
+.order-button:focus {
+  background: var(--order-button-color);
+}
+
+/*=======features=======*/
+
+.features-subtitle {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.features-description {
+  font-weight: 400;
+  line-height: 1.714;
+}
+
+/*=======about us========*/
+
+.about-us-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  color: var(--title-color);
+}
+
+/*========our team=======*/
+
+.team-name {
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  color: var(--title-color);
+}
+
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+}
+
+/*======end studio=====*/
+
+/*======portfolio======*/
+/*======nav buttons======*/
+.portfolio-button {
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  color: var(--title-color);
+  background: var(--button-backgroung-color);
+  border-radius: 4px;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--button-text-color);
+  background: var(--focus-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+/*======galery======*/
+.portfolio-galery-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+
+.portfolio-galery-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--text-color);
+}
