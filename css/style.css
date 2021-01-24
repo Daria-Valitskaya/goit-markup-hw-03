@@ -285,12 +285,13 @@ ul {
 }
 
 /*========our team=======*/
+.team {
+  background-color: var(--button-backgroung-color);
+}
 
 .team .container {
   padding-top: 94px;
   padding-bottom: 94px;
-
-  background-color: var(--button-backgroung-color);
 }
 .team-list {
   display: flex;
