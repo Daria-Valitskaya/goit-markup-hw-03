@@ -83,8 +83,8 @@ img {
 }
 
 .navigation-link {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   letter-spacing: 0.02em;
   color: var(--title-color);
@@ -123,9 +123,11 @@ img {
 }
 .header .container {
   display: flex;
-  border-bottom: 1px solid #ececec;
 }
 
+.header {
+  border-bottom: 1px solid #ececec;
+}
 .navigation {
   display: flex;
   align-items: center;
@@ -213,7 +215,6 @@ img {
 }
 
 .order-button {
-  min-width: 200px;
   padding: 10px 32px;
 
   font-weight: 700;
