@@ -95,11 +95,17 @@ img {
 }
 
 .mail-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
 
 .tel-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
